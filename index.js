@@ -10,7 +10,7 @@ app.use(express.json());
 // const prompt =
 //   "Give me the specific diet plan for me, my weight is 87kg, i am 19 years old";
 
-app.post("/getans", async (req, res) => {
+app.get("/getans", async (req, res) => {
   const prompt = req.body.prompt;
 
   try {
