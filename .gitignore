@@ -2,4 +2,4 @@
 .env
 
 # NODE_MODULES
-node_modules/
+/node_modules
